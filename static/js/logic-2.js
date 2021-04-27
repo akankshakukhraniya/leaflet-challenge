@@ -105,7 +105,7 @@ function mapLegend (map) {
         // Loop through intensity to generate label 
         for (var i = 0; i < categories.length; i++) {
             div.innerHTML +=
-               '<i style="background:' + colors[i] + '></i>' +
+               '<i style="background:' + colors[i] + '"></i>' +
                categories[i] + '<br>';
         };
         return div;

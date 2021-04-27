@@ -42,7 +42,7 @@ function earthQuakeMap() {
     
 };
 
-// Function for creating legend
+// Create function for legend to display information about our map
 function mapLegend(map) {
 
     colors = ["brown", "purple", "blue", "green", "orange", "red"];
@@ -59,7 +59,7 @@ function mapLegend(map) {
         // Loop through intensity to generate label 
         for (var i = 0; i < categories.length; i++) {
             div.innerHTML +=
-               '<i style="background:' + colors[i] + '></i>' +
+               '<i style="background:' + colors[i] + '"></i>' +
                categories[i] + '<br>';
         };
         return div;
